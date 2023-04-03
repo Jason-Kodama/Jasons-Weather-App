@@ -15,7 +15,6 @@ searchForm.addEventListener('submit', (event) => {
     .then(res => res.json())
     .then(data => {
         console.log(data)
-        forecastContainerEl.innerHtml = '';
 
         for (let index = 0; index < data.list.length; index += 8) {
             const forecastData = data.list[index]
@@ -52,7 +51,6 @@ searchForm.addEventListener('submit', (event) => {
 
             forecastContainerEl.appendChild(card)
 
-            
         }
     })
     .catch(err => {
@@ -70,6 +68,7 @@ var weather = {
         .then((data) => this.displayWeather(data));
     },
     displayWeather: function(data) {
+        forecastContainerEl.innerHTML = "";
         const { name } = data;
         const { icon , description } = data.weather[0]
         const { temp, humidity } = data.main;
