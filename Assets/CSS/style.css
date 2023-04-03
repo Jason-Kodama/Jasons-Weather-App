@@ -1,0 +1,127 @@
+header {
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-weight:bold
+  color: #fff;
+  background-color: white;
+  background: rgb(117, 143, 216);
+  background: -moz-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: -o-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: -ms-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: linear-gradient(
+    180deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+}
+aside {
+  display: inline-block;
+}
+.weather {
+  display: inline-block;
+  margin: 6px;
+  padding: 3px;
+  border: 2px solid black;
+  text-align: center;
+  width: 700px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+.weather h2 {
+    font-size: 30px;
+    color: white;
+  background-color: white;
+  background: rgb(117, 143, 216);
+  background: -moz-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: -o-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: -ms-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: linear-gradient(
+    180deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+}
+.card {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px dotted blue;
+  text-align: center;
+  color: white;
+  background-color: white;
+  background: rgb(117, 143, 216);
+  background: -moz-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: -o-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: -ms-linear-gradient(
+    90deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+  background: linear-gradient(
+    180deg,
+    rgb(100, 108, 226) 30%,
+    rgb(26, 16, 156) 70%
+  );
+}
+aside {
+    grid-row:auto
+}
+#historyList li{
+    list-style-type: none;
+    display: inline-flex;
+    border:solid 1px;
+    border-radius: 5px;
+    padding: 2px;
+    margin:3px;
+    background-color:rgb(100, 108, 226);
+    color: white;
+    
+}
